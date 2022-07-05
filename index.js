@@ -126,8 +126,7 @@ iSmartGate.prototype = {
             if (!err && response.statusCode == 200) {
                 try {body = JSON.parse(body);}
                 catch(err) {
-					if(body == "Restricted Access") {this.log.error("Restricted Access", body);}
-					else if(body == "Login Token Expired") {this.log.error("Login Token Expired", body);}
+					if(body == "Restricted Access") {this.log.error("Login token expired.");}
 					else {this.log.error("Could not connect.", "Check http://" + this.hostname + " to make sure the device is still reachable & no captcha is showing.");}
 				}
 
@@ -146,7 +145,7 @@ iSmartGate.prototype = {
                     case "low":     this.BatteryLevel = 10;     break;
 
                     default:
-                        this.log.warn("Unexpected BatteryLevel detected.", body);
+                        this.log.warning("Unexpected BatteryLevel detected.", body[1], body);
                         this.BatteryLevel = 0;
                     break;
                 }
