@@ -1,64 +1,28 @@
 {
-  "_from": "homebridge-ismartgate@1.2.0",
-  "_id": "homebridge-ismartgate@1.2.0",
-  "_inBundle": false,
-  "_integrity": "sha512-dBTioBM8F/gkOnNTtiu+U+GUYi0GEdMh/03K2QdhwqXXUpPlLsLBJiZfydVvcJX1V6zbBqZ5c9/epwqJ4QN6Gg==",
-  "_location": "/homebridge-ismartgate",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "homebridge-ismartgate@1.2.0",
-    "name": "homebridge-ismartgate",
-    "escapedName": "homebridge-ismartgate",
-    "rawSpec": "1.2.0",
-    "saveSpec": null,
-    "fetchSpec": "1.2.0"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/homebridge-ismartgate/-/homebridge-ismartgate-1.2.0.tgz",
-  "_shasum": "23cf8741e747736fd013dfd0e51c8f768c93cc9c",
-  "_spec": "homebridge-ismartgate@1.2.0",
-  "_where": "/usr/local",
+  "name": "homebridge-ismartgate",
+  "version": "1.3.1",
   "author": {
     "name": "codyc1515"
   },
-  "bugs": {
-    "url": "https://github.com/codyc1515/homebridge-ismartgate/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "request": "^2.88.0"
   },
   "deprecated": false,
-  "description": "Homebridge plug-in for iSmartGate HomeKit devices to expose their Temperature & Battery services, which would otherwise be hidden.",
-  "devDependencies": {},
+  "description": "Homebridge plug-in for iSmartGate HomeKit devices to expose their Temperature & Battery services",
   "engines": {
     "homebridge": ">=0.4.0",
     "node": ">=8.6.0"
   },
-  "homepage": "https://github.com/codyc1515/homebridge-ismartgate#readme",
+  "homepage": "https://github.com/macmisu/homebridge-ismartgate#readme",
   "keywords": [
     "homebridge-plugin",
     "homekit",
-    "ismartgate",
-    "gogogate",
-    "garage",
-    "door",
-    "temperature",
-    "battery"
+    "ismartgate"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "homebridge-ismartgate",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codyc1515/homebridge-ismartgate.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.3.0"
+    "url": "git+https://github.com/macmisu/homebridge-ismartgate.git"
+  }
 }
